@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminino - Baby Tracker</title>
+    <meta name="description" content="Luminino ile bebeğinizin beslenme, uyku ve gelişim takibini kolayca yapın.">
+    
+    <style>
+        /* Modern ve Temiz Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #FDFDFD;
+            color: #1F2937;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Ana Taşıyıcı */
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Logo Ayarları (Hafif yuvarlatılmış köşeler) */
+        .logo-container {
+            margin-bottom: 2rem;
+        }
+        .logo-container img {
+            width: 180px;
+            height: auto;
+            border-radius: 32px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        /* Başlıklar */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #111827;
+            margin-bottom: 1rem;
+            letter-spacing: -0.025em;
+        }
+        p.subtitle {
+            font-size: 1.125rem;
+            color: #4B5563;
+            max-width: 500px;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Buton Grubu */
+        .store-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Orman Yeşili (#2A7B4C) Primary Butonlar */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #2A7B4C; /* Orman Yeşili */
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px rgba(42, 123, 76, 0.25);
+            min-width: 200px;
+        }
+
+        .btn:hover {
+            background-color: #20603A; /* Hover için daha koyu yeşil */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(42, 123, 76, 0.3);
+        }
+
+        /* Alt Bilgi */
+        footer {
+            padding: 2rem;
+            text-align: center;
+            color: #9CA3AF;
+            font-size: 0.875rem;
+        }
+
+        /* İkonlar için basit CSS hileleri (Dışarıdan font yüklememek için) */
+        .icon {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo (URL doğrudan GitHub dosya adıyla aynı olmalı) -->
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Luminino Logo">
+        </div>
+
+        <h1>Luminino</h1>
+        <p class="subtitle">
+            Bebeğinizin beslenme, uyku, alt değiştirme ve gelişim süreçlerini tek bir yerden, güvenle takip edin.
+        </p>
+
+        <!-- Market Butonları -->
+        <div class="store-buttons">
+            <!-- App Store Linki (İleride buraya gerçek linki koyacaksın) -->
+            <a href="#" class="btn">
+                <span class="icon"></span> App Store'dan İndir
+            </a>
+            
+            <!-- Google Play Linki (İleride buraya gerçek linki koyacaksın) -->
+            <a href="#" class="btn">
+                <span class="icon">▶</span> Google Play'den Al
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Luminino. Tüm hakları saklıdır.
+    </footer>
+
+</body>
+</html>
